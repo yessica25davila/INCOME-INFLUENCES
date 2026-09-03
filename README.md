@@ -4,6 +4,8 @@ UCI CENSUS DATA (1994) Oregon State University-Capstone Project | April 2025 - J
 
 This analysis investigates the relationship between demographic and employment factors using 1994 U.S. Census data. The main goal was to understand how factors influenced whether someone earned over $50k annually. I used logistic regression on a dataset from the Machine Learning Repository maintained by the University of California, Irvine (UCI). 
 
+Why does this matter? This kind of analysis can help guide policies and decisions that aim to promote fairness and efficiency in the labor market. It highlights the role that work hours — and persistent gender differences — can play in income outcomes. 
+
 I focused on two key questions: First, is there an association between how many hours someone works per week and whether they earn over $50,000 — after accounting for other variables? Findings from the initial exploratory data analysis revealed that most of the individuals in the dataset earned $50,000 or less as seen in the scatterplots below.  The findings were broken down by gender, which showed that males, on average, worked more hours per week than females. There is a visible concentration around 40 hours worked per week among both genders in the first plot and a possible trend where individuals with more years of education could be more likely to make more than $50,000 in the second plot.
 
 
@@ -18,7 +20,5 @@ For the second question of interest, After accounting for age, is there evidence
 
 <img width="480" height="296" alt="Screenshot 2026-03-13 at 2 19 22 PM" src="https://github.com/user-attachments/assets/38345a46-830e-42c5-85b4-2a5a08172f2c" />
 
-
-Why does this matter? This kind of analysis can help guide policies and decisions that aim to promote fairness and efficiency in the labor market. It highlights the role that work hours — and persistent gender differences — can play in income outcomes. 
 
 While the data is from 1994 and may not reflect today’s workforce perfectly, the overall takeaway remains relevant: data-driven insights can help us better understand income disparities and improve employment practices going forward
